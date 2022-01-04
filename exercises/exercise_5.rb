@@ -9,4 +9,6 @@ puts "----------"
 
 # Your code goes here ...
 
-Store.sum("annual_revenue")
+p Store.sum("annual_revenue")
+p Store.average("annual_revenue")
+p Store.where("annual_revenue > 1000000").count
